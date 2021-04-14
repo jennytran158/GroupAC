@@ -1,0 +1,10 @@
+gym==0.17.2
+tensorboard==2.3.0
+tensorboardX==1.8
+matplotlib
+ipython==6.4.0
+torch
+pysc2==2.0.2
+s2clientprotocol==4.6.1.68195.0
+absl-py==0.5.0
+pyyaml
