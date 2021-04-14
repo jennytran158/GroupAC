@@ -1,0 +1,11 @@
+env: 'Test'
+env_map: 'Test'
+ep_len: 15
+n_iter: 2001
+batch_size: 200
+eval_batch_size: 200
+gamma: 0.99
+init_state: [6,6,5]
+random_init_state: True
+goal_state: [1,5,10]
+groups: [2,1]

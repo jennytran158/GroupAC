@@ -1,0 +1,29 @@
+agent_class: "GACAgent"
+num_agent_train_steps_per_iter: 1
+agent_params:
+  n_steps: 5
+  num_actor_updates_per_agent_update: 1
+  num_critic_updates_per_agent_update: 1
+  standardize_advantages: True
+  debugging: False
+  actor:
+    learning_rate: 0.0005
+    encoder_n_layers: 2 #encoder has encoder_n_layers hidden layers
+    decoder_n_layers: 1 #decoder has decoder_n_layers hidden layers
+    layer_size_per_agent: 8
+    entropy_coefficient: 0.0
+    max_grad_norm: 0.5
+    debugging: False
+    rnn: True
+  critic:
+    learning_rate: 0.0005
+    encoder_n_layers: 2 #encoder has encoder_n_layers hidden layers
+    decoder_n_layers: 1 #decoder has decoder_n_layers hidden layers
+    lstm_layer_size_per_agent: 2
+    layer_size_per_agent: 8 #size of hidden layers
+    max_grad_norm: 0.5
+    num_target_updates: 5
+    num_grad_steps_per_target_update: 5
+    n_steps: 5
+    debugging: False
+    rnn: True

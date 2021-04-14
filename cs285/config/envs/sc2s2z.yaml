@@ -1,0 +1,9 @@
+env: 'StarCraft2Env'
+env_map: '3s5z'
+env_args:
+  ep_len: 120
+  gamma: 0.99
+  batch_size: 1200
+  eval_batch_size: 1200
+  n_iter: 3600
+  groups: 8

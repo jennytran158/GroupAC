@@ -1,0 +1,9 @@
+env: 'StarCraft2Env'
+env_map: '4m'
+env_wrapper: 'SCWrapper'
+ep_len: 80
+gamma: 0.99
+batch_size: 1120
+eval_batch_size: 1120
+n_iter: 3001
+groups: [2,2]

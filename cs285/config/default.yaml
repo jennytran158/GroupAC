@@ -1,0 +1,10 @@
+scalar_log_freq: 20
+chkpt_log_freq: 500
+which_gpu: 0
+save_model: True
+no_gpu: False
+save_replay: False
+chkpt_path: "chkpt"
+log_path: "logs"
+replay_path: ""
+seed: 100
