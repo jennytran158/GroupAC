@@ -3,7 +3,7 @@ Modified from UC Berkeley's cs285 (Deep RL) course material (https://github.com/
 ## Watch on Youtube
 https://www.youtube.com/watch?v=K_xGrpgOEyM
 ## Centralized Critic Diagram
-<img src="https://github.com/jennytran158/GroupAC/blob/main/imgs/diagram.png" alt="FOV" width="500"/>
+<img src="https://github.com/jennytran158/GroupAC/blob/main/imgs/critic_diagram.png" alt="FOV" width="500"/>
 
 ## SMAC Maps
 <img src="https://github.com/jennytran158/GroupAC/blob/main/imgs/maps.png" alt="FOV" width="500"/>
