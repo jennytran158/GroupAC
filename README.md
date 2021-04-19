@@ -1,5 +1,5 @@
 # Group Actor-Critic
-Modified from UC Berkeley's cs285 (Deep RL) course material
+Modified from UC Berkeley's cs285 (Deep RL) course material (https://github.com/berkeleydeeprlcourse/homework_fall2020)
 ## Watch on Youtube
 https://www.youtube.com/watch?v=K_xGrpgOEyM
 ## Centralized Critic Diagram
